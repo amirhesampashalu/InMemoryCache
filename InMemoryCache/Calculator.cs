@@ -7,6 +7,10 @@
             checked {return a + b;}
           
         }
+        public int Deliverd(int a, int b)
+        {
+            return a / b;
+        }
 
     }
 }
