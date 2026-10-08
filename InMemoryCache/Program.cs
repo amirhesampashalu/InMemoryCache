@@ -1,4 +1,4 @@
-using InMemoryCache;
+﻿using InMemoryCache;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,4 +37,5 @@ Console.WriteLine("amir hesam");
 Calculator calculator = new Calculator();
 
 var result=calculator.Deliverd(1, 10);
-Console.WriteLine($"{result}"); 
+Console.WriteLine($"{result}");
+Console.WriteLine("جدید");
