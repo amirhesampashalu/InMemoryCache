@@ -1,3 +1,5 @@
+using InMemoryCache;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -32,3 +34,7 @@ app.Run();
 Console.WriteLine("heloo");
 Console.WriteLine("amir hesam");
 
+Calculator calculator = new Calculator();
+
+var result=calculator.Deliverd(1, 10);
+Console.WriteLine($"{result}"); 
