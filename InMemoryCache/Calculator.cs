@@ -11,6 +11,10 @@
         {
             return a / b;
         }
+        public int Multiplex(int a, int b)
+        {
+            return a * b;
+        }
 
     }
 }
